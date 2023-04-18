@@ -16,8 +16,10 @@ namespace BlogCore.AccesoDatos.Data.Repository
         {
             _db = db;
             Categoria = new CategoriaRepositoy (_db);
+            Articulo = new ArticuloRepositoy(_db);
         }
         public ICategoriaRepository Categoria { get; private set; } //private set significa que solo puede ser seteada dentro de la clase
+        public IArticuloRepository Articulo { get; private set; } //private set significa que solo puede ser seteada dentro de la clase
 
         public void Dispose()
         {

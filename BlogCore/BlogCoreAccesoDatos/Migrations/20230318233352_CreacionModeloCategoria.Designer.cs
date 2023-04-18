@@ -25,7 +25,7 @@ namespace BlogCore.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("BlogCore.Models.Categoria", b =>
+            modelBuilder.Entity("BlogCore.Models.Categorias", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

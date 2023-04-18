@@ -13,5 +13,6 @@ namespace BlogCore.Data
 
         //aca van los modelos
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Articulo> Articulo { get; set; }
     }
 }

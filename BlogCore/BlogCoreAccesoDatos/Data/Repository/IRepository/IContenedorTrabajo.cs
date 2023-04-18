@@ -9,6 +9,7 @@ namespace BlogCore.AccesoDatos.Data.Repository.IRepository
     public interface IContenedorTrabajo: IDisposable
     {
         ICategoriaRepository Categoria { get; }
+        IArticuloRepository Articulo { get; }
         //aca se agregan los diferentes repositorios
 
         void Save();
